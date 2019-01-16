@@ -121,7 +121,12 @@ class AutoSwitchComponent : ApplicationComponent {
 
 
                     // set current vim mode to normal
-                    inNormal = false
+                    /**
+                     * jiangjinxin custom change
+                     *
+                     * remove inNormal = false
+                     */
+                    handleInVimInsertSwitch()
 
                 } else if ("" == commandName) {
 
